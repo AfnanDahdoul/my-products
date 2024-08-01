@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+}
+
+.page{
+    text-align: left;
+    margin: 50px ;
+    width: 70%;
+}
+
+.txt{
+    font-weight: bold;
+    text-decoration: underline midnightblue;
+}
+
+.blank{
+    margin-top: 20px;
+}
+
+.Products { 
+    float: left;
+    background-color: aliceblue ;
+    margin: 10px;
+    text-align : center; 
+    width: 200px;
+    height: 300px;
+    border: 2px solid darkgray;
+}
+
+.cart{
+    background-color:midnightblue;
+    color: white;
+    width: 75%;
+    margin-left: 5px;
+    padding: 5px;
+    float: left
+}
+.heart{
+    background-color: white;
+    color: midnightblue;
+    height: fit-content;
+    width: fit-content;
+    border: solid 1px midnightblue;
+    margin-right: 4px;
+    padding: 4px;
+    float: right;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    padding-top: 10px;
+}
+
+.beforeSale{
+    color: darkred;
+    text-decoration: line-through;
+}
+
+.afterSale{
+    color: darkgreen;
+    float: left;
+}
+
+.clearfix{
+    clear: both;
+}
